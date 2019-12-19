@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+}
+
+.banner {
+  background-image: url("images/laptop_keyboard.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.hone-top {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 150%;
+  color: white;
+  margin-top: 100px;
+}
+
+.hone-mid {
+  font-family: 'Domine', serif;
+  margin: 6%;
+}
+
+.content {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  padding: 5%;
+}
+
+
+.about,
+.skills,
+.projects,
+.contacts {
+  min-height: 200px;
+  padding: 6% 0;
+}
+
+
+.skills {
+  background-color: #95E8E8;
+}
+
+.projects {
+  background-color: #90F5BC;
+}
+
+/* Skill icons */
+
+.icons {
+  /* make all icons positioned neatly */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.max-small {
+  /* make all icons same dims*/
+  width: auto; height: auto;
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 3%;
+}
+
+
+
+/* Projects section */
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quiz-app {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  padding: 6%;
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 125%;
+}
+
+
+/* Contact section */
+
+.contact-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+.email {
+  text-align: center;
+}
+
+/* NAVBAR */
+
+
+.navbar {
+  font-size: 18px;
+  background-color: rgb(44, 41, 41);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .aboutme {
+    display: flex;
+    align-items: center;
+    float:left;
+    height: 250px;
+  }
+  
+  .great-dev {
+    text-align: left;
+  }
+
+  .about,
+  .skills,
+  .projects,
+  .contacts {
+    padding: 6% 0;
+    margin: 0;
+  }
+
+  .hone-top {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 350%;
+    color: white;
+    margin-top: 100px;
+  }
+}
+
+/* End of NAVBAR */
