@@ -88,8 +88,8 @@ section {
 
 .quiz-app {
   margin: 0 auto;
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 .projects-title {
