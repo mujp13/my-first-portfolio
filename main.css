@@ -39,6 +39,9 @@ section {
   padding: 5%;
 }
 
+p {
+  font-size: 150%;
+}
 
 .about,
 .skills,
@@ -50,11 +53,11 @@ section {
 
 
 .skills {
-  background-color: #95E8E8;
+  background-color: #B3EFFF;
 }
 
 .projects {
-  background-color: #90F5BC;
+  background-color: #00CFFF;
 }
 
 /* Skill icons */
@@ -94,9 +97,12 @@ section {
 
 .projects-title {
   text-align: center;
-  font-size: 125%;
+  font-size: 175%;
 }
 
+a {
+  font-size: 150%;
+}
 
 /* Contact section */
 
@@ -114,6 +120,10 @@ section {
 
 .email {
   text-align: center;
+}
+
+.contacts {
+  background-color:  #61E8C4;
 }
 
 /* NAVBAR */
@@ -229,5 +239,6 @@ section {
     margin-top: 100px;
   }
 }
+
 
 /* End of NAVBAR */
