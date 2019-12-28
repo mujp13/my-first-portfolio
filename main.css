@@ -26,6 +26,8 @@ section {
   font-size: 350%;
   color: white;
   margin-top: 100px;
+  font: italic bold Georgia, Serif;
+  text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
 }
 
 .hone-mid {
@@ -239,14 +241,16 @@ a {
     font-size: 600%;
     color: white;
     margin-top: 100px;
+    font: italic bold Georgia, Serif;
+    text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
   }
   
   .hone-mid {
-    
     font-family: 'Domine', serif;
     font-size: 300%;
     text-align: center;
   }
+
 
 }
 
