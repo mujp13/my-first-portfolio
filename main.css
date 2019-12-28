@@ -23,7 +23,7 @@ section {
 
 .hone-top {
   font-family: 'Shadows Into Light Two', cursive;
-  font-size: 150%;
+  font-size: 350%;
   color: yellow;
   margin-top: 100px;
 }
@@ -31,7 +31,8 @@ section {
 .hone-mid {
   font-family: 'Domine', serif;
   margin: 6%;
-  font-size: 300%;
+  font-size: 200%;
+  text-align: center;
 }
 
 .content {
@@ -218,7 +219,7 @@ a {
     display: flex;
     align-items: center;
     float:left;
-    height: 900px;;
+    height: 800px;
   }
   
   .great-dev {
@@ -235,10 +236,18 @@ a {
 
   .hone-top {
     font-family: 'Shadows Into Light Two', cursive;
-    font-size: 350%;
+    font-size: 600%;
     color: yellow;
     margin-top: 100px;
   }
+  
+  .hone-mid {
+    
+    font-family: 'Domine', serif;
+    font-size: 300%;
+    text-align: center;
+  }
+
 }
 
 
