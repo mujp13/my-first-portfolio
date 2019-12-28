@@ -31,6 +31,7 @@ section {
 .hone-mid {
   font-family: 'Domine', serif;
   margin: 6%;
+  font-size: 300%;
 }
 
 .content {
@@ -217,7 +218,7 @@ a {
     display: flex;
     align-items: center;
     float:left;
-    height: 370px;
+    height: 900px;;
   }
   
   .great-dev {
