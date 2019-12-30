@@ -11,24 +11,31 @@ main {
 section {
   min-height: 200px;
   padding: 6% 0;
+
+
+
 }
 
 .banner {
-  background-image: url("images/laptop_keyboard.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  background-image: url(images/laptop_keyboard.jpg); 
+  background-size:cover; 
+  display:block; 
+  width:100%; 
+  height:400px; 
+  color:#ffffff; 
+  text-align: center; 
+  padding-top:150px;
+  background-color:rgba(0, 0, 0, 0.8);
+  /*background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.9)), url(images/laptop_keyboard.jpg) no-repeat center center fixed;*/
 }
 
 .hone-top {
   font-family: 'Shadows Into Light Two', cursive;
   font-size: 350%;
-  color: white;
   margin-top: 100px;
-  background: #595959;
   font: italic bold Georgia, Serif;
-  text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   
 }
 
@@ -122,6 +129,7 @@ a {
 
 .icon-logo {
   font-size: 150%;
+  text-decoration: none;
 }
 
 .email {
@@ -240,12 +248,9 @@ a {
 
   .hone-top {
     font-family: 'Shadows Into Light Two', cursive;
-    font-size: 600%;
+    font-size: 500%;
     color: white;
-    margin-top: 100px;
-    background: #595959;
-    font: italic bold Georgia, Serif;
-    text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   }
   
   .hone-mid {
@@ -259,3 +264,4 @@ a {
 
 
 /* End of NAVBAR */
+text-decoration: none;
