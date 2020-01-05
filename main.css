@@ -11,21 +11,18 @@ main {
 section {
   min-height: 200px;
   padding: 6% 0;
-
-
-
 }
 
 .banner {
-  background-image: url(images/laptop_keyboard.jpg); 
-  background-size:cover; 
-  display:block; 
-  width:100%; 
-  height:400px; 
-  color:#ffffff; 
-  text-align: center; 
-  padding-top:150px;
-  background-color:rgba(0, 0, 0, 0.8);
+  background-image: url(images/laptop_keyboard.jpg);
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 400px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 150px;
+  background-color: rgba(0, 0, 0, 0.8);
   /*background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.9)), url(images/laptop_keyboard.jpg) no-repeat center center fixed;*/
 }
 
@@ -36,7 +33,6 @@ section {
   font: italic bold Georgia, Serif;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-  
 }
 
 .hone-mid {
@@ -64,13 +60,12 @@ p {
   padding: 6% 0;
 }
 
-
 .skills {
-  background-color: #B3EFFF;
+  background-color: #b3efff;
 }
 
 .projects {
-  background-color: #00CFFF;
+  background-color: #00cfff;
 }
 
 /* Skill icons */
@@ -83,16 +78,14 @@ p {
   justify-content: space-around;
 }
 
-
 .max-small {
   /* make all icons same dims*/
-  width: auto; height: auto;
+  width: auto;
+  height: auto;
   max-width: 100px;
   max-height: 100px;
   margin-bottom: 3%;
 }
-
-
 
 /* Projects section */
 
@@ -102,10 +95,14 @@ p {
   justify-content: center;
 }
 
-.quiz-app {
+.project-img {
   margin: 0 auto;
   width: 100%;
   height: auto;
+}
+
+hr.new1 {
+  border: 1px solid black;
 }
 
 .projects-title {
@@ -137,11 +134,10 @@ a {
 }
 
 .contacts {
-  background-color:  #61E8C4;
+  background-color: #61e8c4;
 }
 
 /* NAVBAR */
-
 
 .navbar {
   font-size: 18px;
@@ -150,7 +146,6 @@ a {
   padding-bottom: 10px;
   position: fixed;
   width: 100%;
-  
 }
 
 .main-nav {
@@ -188,7 +183,6 @@ a {
 .active {
   display: block;
 }
-
 
 @media screen and (min-width: 768px) {
   .navbar {
@@ -230,10 +224,10 @@ a {
   .aboutme {
     display: flex;
     align-items: center;
-    float:left;
+    float: left;
     height: 800px;
   }
-  
+
   .great-dev {
     text-align: left;
   }
@@ -252,16 +246,13 @@ a {
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   }
-  
+
   .hone-mid {
     font-family: 'Domine', serif;
     font-size: 300%;
     text-align: center;
   }
-
-
 }
-
 
 /* End of NAVBAR */
 text-decoration: none;
